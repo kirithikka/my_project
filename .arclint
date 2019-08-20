@@ -37,11 +37,6 @@
     },
     "text": {
       "type": "text"
-    },
-    "xhpast": {
-      "type": "xhpast",
-      "include": "(\\.php$)",
-      "standard": "phutil.xhpast"
     }
   }
 }
