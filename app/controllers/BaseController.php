@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Log;
-
 class BaseController extends Controller {
 
 	/**
@@ -11,15 +9,9 @@ class BaseController extends Controller {
 	 */
 	protected function setupLayout()
 	{
-		$a = 10;
-		$b;
 		if ( ! is_null($this->layout))
 		{
 			$this->layout = View::make($this->layout);
 		}
 	}
-
-
-
-
 }

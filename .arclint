@@ -27,8 +27,8 @@
     "nolint": {
       "type": "nolint"
     },
-    "phutil-library": {
-      "type": "phutil-library",
+    "phpcs": {
+      "type": "phpcs",
       "include": "(\\.php$)"
     },
     "spelling": {
